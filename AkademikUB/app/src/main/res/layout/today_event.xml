@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/tglToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:paddingTop="5dp"
+            android:text="9"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="35dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/bulanToday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEB"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:id="@+id/tahunToday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="10dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/judulToday"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="8dp"
+            android:text="dummytext"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/keteranganToday"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="8dp"
+            android:text="Lorem Ipsum do lorem"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
